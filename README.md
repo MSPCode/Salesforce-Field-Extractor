@@ -48,11 +48,11 @@ The script will connect to Salesforce, retrieve the object list, and for each ob
 
 ## Configuration
 
-Object and Field Selection: By default, the script fetches all objects and their fields. Modify the below section in sscript if you need to specify certain objects.
+Object and Field Selection: By default, the script fetches all objects and their fields. Modify the below section in script if you need to specify certain objects.
 
 ```bash
 object_list = get_all_objects(sf) #use this to extract all objects. **THIS MAY NOT WORK IF YOU HAVE LARGE ORG**
-#object_list = ['Account', 'Case', 'Main__c'] #use this if you want to extract specific objects
+#object_list = ['Account', 'Case', 'Main__c'] #uncomment this if you want to extract specific objects.
 ```
 
 ## Security
