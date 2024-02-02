@@ -1,12 +1,12 @@
 # Salesforce Object and Field Exporter
 
-This Python script connects to Salesforce, retrieves a comprehensive list of Salesforce objects, including both standard and custom objects, and exports detailed information about each object's fields into an Excel file. It filters out objects related to change events, history, or shares by default.
+This Python script connects to Salesforce, retrieves a list of Salesforce objects, including standard and custom objects, and exports detailed information about each object's fields into an Excel file. It filters out objects related to change events, history, or shares by default.
 
 ## Features
 
 - Connects to Salesforce using provided API credentials.
-- Retrieves and filters Salesforce objects based on predefined criteria.
-- Exports details of object fields into an Excel file, with separate sheets for each object.
+- Retrieves field metadata of Salesforce objects based on criteria.
+- Exports field metadata details of objects into an Excel file, with separate sheets for each object.
 
 ## Prerequisites
 
