@@ -24,6 +24,7 @@ Before running this script, you must have:
 
    ```bash
    pip install simple_salesforce openpyxl
+   ```
 
 3. **Create a `cred.py` file in the same directory as the script with your Salesforce API credentials and preferences**:
 
@@ -33,6 +34,7 @@ Before running this script, you must have:
    SALESFORCE_PASSWORD = 'your_password'
    SALESFORCE_SECURITY_TOKEN = 'your_security_token'
    SALESFORCE_SANDBOX = True  # or False
+   ```
 
 ## Usage
 
